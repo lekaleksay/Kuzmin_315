@@ -1,0 +1,72 @@
+/* ****************************************************************************************************************************************************
+Кузьмин Алексей Владимирович <leksayleksay@gmail.com>
+23/05/2016 00:40:00
+style.css - сборник стилей, для корректного отображения главной страницы.
+Расположен каталоге Kuzmin_A_V_315/static/css
+*****************************************************************************************************************************************************/
+.body_shape { width: 100%; }
+.body_shape TD { vertical-align: top; padding: 5px; }
+.col1 {
+	width: 150px; /* Ширина первой колонки */
+    background: #000; /* Цвет фона первой колонки */
+}
+.col2 {
+	width: 1000px;
+	height: 700px;
+    background: #fff; /* Цвет фона второй колонки */
+}
+.col3 {
+    width: 150px; /* Ширина третьей колонки */
+    background: #000; /* Цвет фона третьей колонки */
+}
+
+.Menu{
+	align: center;
+	text-align: center;
+	width: 100%;
+	background: #bbb;
+}
+
+h1{
+	text-align: center;
+	font-style: underline;
+	color: #fff;
+	font-size: 72px;
+}
+h2{
+	color: #000;
+}
+p{
+	color: #000;
+}
+p.about{
+	color: #000;
+}
+p.name_catalog{
+	color: #000;
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+td, tr{
+	border: 1px solid #000;
+}
+table.table_main{
+	background: #bbb;
+	color: #fff;
+}
+table.table_main td, table.table_main tr{
+	border: 1px solid #fff;
+}
+table.link td, table.link tr{
+	font-size: 24
+	color: #fff
+	background: #bbb;
+	border: 1px solid #fff;
+}
+
+table.link2 td, table.link2 tr{
+	background: #fff;
+	border: 1px solid #000;
+}
